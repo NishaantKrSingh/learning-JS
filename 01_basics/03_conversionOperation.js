@@ -47,6 +47,24 @@ let str2 = " nishant"
 let str3 = str1 + str2
 console.log(str3);
 
-console.log("1" + 2)
-console.log(1 + "2");
-console.log("1" + 2 + 2)
+// console.log("1" + 2) //12
+// console.log(1 + "2"); //12
+// console.log("1" + 2 + 2) //122
+// console.log(1 + 2 + "2") //32
+// // Happens because of standards of java script
+// console.log((3+4) * 5 % 3); // not recommended and not a good practice to calculate multiple operations at once, when required use () brackets to streamline the calculation 
+console.log(+true) // returns 1 because true stands for 1 and addition operator makes it count as a number
+console.log(+"") // empty string represents false or 0 so when combined with addition operator it returns 0
+
+let num1, num2, num3
+num1 = num2 = num3 = 2+2
+// console.log([num1, num2, num3])
+
+let gameCounter = 100
+// gameCounter++
+// ++ gameCounter
+console.log(gameCounter);
+
+// prefix and postfix
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
