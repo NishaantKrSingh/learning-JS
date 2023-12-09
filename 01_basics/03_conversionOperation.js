@@ -12,7 +12,7 @@ let valueInNumber = Number(score)
 //NaN is also considered as a number which checked with typeof
 //true=> 1; false=> 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "nish"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn);
