@@ -1,1 +1,2 @@
-console.log("Hello World")
+const heros =["shaktiman", "nagraj", "doja"]
+console.log(typeof heros)
